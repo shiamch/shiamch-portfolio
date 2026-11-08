@@ -1,9 +1,20 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+
+/**
+ * Root component: lays out the header, main content and footer.
+ * @returns {JSX.Element}
+ */
 const App = () => {
   return (
-    <main>
-      <h1>Shiam Chowdhury</h1>
-      <p>Welcome to my portfolio!</p>
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+      </main>
+      <Footer />
+    </>
   );
 };
 

@@ -8,7 +8,7 @@ Code style: `const`/`let` (কখনো `var` না), arrow function, ছোট
 ## 🟢 Beginner
 
 - [x] **Lesson 0 — Setup**: Vite দিয়ে project, folder structure, `index.html` → `main.jsx` → `App.jsx` কীভাবে চলে
-- [ ] **Lesson 1 — JSX ও Component**: `Header`, `Hero`, `Footer` component বানানো
+- [x] **Lesson 1 — JSX ও Component**: `Header`, `Hero`, `Footer` component বানানো
 - [ ] **Lesson 2 — Props**: reusable `ProjectCard`, `SkillBadge`
 - [ ] **Lesson 3 — List ও `key`**: `src/data/projects.js` থেকে `.map()` দিয়ে project দেখানো
 - [ ] **Lesson 4 — Styling**: CSS Modules (পরে চাইলে Tailwind)
